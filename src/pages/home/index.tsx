@@ -1,5 +1,9 @@
+import { Container } from "../../components/container"
+
 export const Home = () => {
   return (
-    <div>index</div>
+    <Container>
+      <h1>Pagina home</h1>
+    </Container>
   )
 }
